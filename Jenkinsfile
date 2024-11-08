@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/your-username/your-repo.git', branch: 'main'
+                git url: 'https://github.com/rohit-vr/devops_practicals.git', branch: 'main'
             }
         }
         stage('Build Docker Image') {
