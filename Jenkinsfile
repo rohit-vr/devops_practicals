@@ -16,7 +16,7 @@ pipeline {
         stage('Run Container') {
             steps {
                 script {
-                    docker.run('react-frontend:latest', '-p 80:80')
+                    docker.run('react-frontend:latest', '-p 8081:80')
                 }
             }
         }
